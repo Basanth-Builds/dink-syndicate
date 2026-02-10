@@ -20,7 +20,7 @@ export default function LoginPage() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!supabase) {
-            setError("Supabase is not configured. Please add your credentials to .env.local");
+            setError("Login service is temporarily unavailable. Please try again later.");
             return;
         }
         setError(null);
