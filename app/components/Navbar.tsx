@@ -75,6 +75,12 @@ export default function Navbar() {
             >
               Team
             </a>
+            <Link
+              href="/players"
+              className="text-[#e8f2f2] hover:text-[#c5e8a1] transition-colors font-medium"
+            >
+              Players
+            </Link>
             <a
               href="#contact"
               className="text-[#e8f2f2] hover:text-[#c5e8a1] transition-colors font-medium"
@@ -186,6 +192,13 @@ export default function Navbar() {
               >
                 Team
               </a>
+              <Link
+                href="/players"
+                className="text-[#e8f2f2] hover:text-[#c5e8a1] transition-colors font-medium"
+                onClick={() => setIsOpen(false)}
+              >
+                Players
+              </Link>
               <a
                 href="#contact"
                 className="text-[#e8f2f2] hover:text-[#c5e8a1] transition-colors font-medium"
